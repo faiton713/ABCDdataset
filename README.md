@@ -7,7 +7,7 @@ The paper:
 ## Format
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from aerial images taken before and after the Tohoku earthquake.
 
-Using this dataset, we comprehensively evaluate CNNs from a practical-application viewpoint, e.g., input scenarios (pre-tsunami images are not always available), input scales (building size varies) and different configurations for CNNs. The experimental results show that our CNN-based washedaway detection system achieves 94–96% classification accuracy across all conditions, indicating the promising applicability of CNNs for washed-away building detection.
+Eight data samples are shown in the below figure, where the left and the right column shows "washed-away" and "surviving" classes, respectively.
 
 ![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png){:width="100px" style="display:block;margin-left:auto;margin-right:auto;"}
 
