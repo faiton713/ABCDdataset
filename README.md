@@ -8,16 +8,16 @@ Each datum in this dataset is a pair of pre- and post-tsunami aerial image patch
 
 The below figure shows the representative samples in the dataset, where eight pairs are shown for "washed-away" class (left column) and "surviving" class (right column).
 
-![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png){:width="100px" style="display:block;margin-left:auto;margin-right:auto;"}
+![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
 
 
 See our paper for further details.
 Please cite the following paper when publishing results that use this dataset:  
-Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka, Ryosuke Nakamura, "Damage Detection from Aerial Images
-via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.
+**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka, Ryosuke Nakamura, "Damage Detection from Aerial Images
+via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
 
 
-----
+---
 
 Aito Fujita  
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
