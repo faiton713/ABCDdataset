@@ -12,7 +12,7 @@ The below figure shows the representative samples in the dataset, where eight pa
 
 
 See our paper for further details.
-Please cite the following paper when publishing results that use this dataset:
+Please cite the following paper when publishing results that use this dataset:  
 Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka, Ryosuke Nakamura, "Damage Detection from Aerial Images
 via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.
 
