@@ -5,7 +5,7 @@ This dataset is a new labeled dataset, specifically geared toward constructing a
 The paper: 
 
 ## Format
-Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from aerial images taken before and after the Tohoku earthquake.
+Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from aerial images taken before and after the Tohoku earthquake. The pixel resolution of pathes is 40 cm.
 
 Eight data samples are shown in the below figure, where the left and the right column shows "washed-away" and "surviving" classes, respectively.
 
