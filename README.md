@@ -9,4 +9,4 @@ Each datum in this dataset is a pair of pre- and post-tsunami aerial image patch
 
 Using this dataset, we comprehensively evaluate CNNs from a practical-application viewpoint, e.g., input scenarios (pre-tsunami images are not always available), input scales (building size varies) and different configurations for CNNs. The experimental results show that our CNN-based washedaway detection system achieves 94–96% classification accuracy across all conditions, indicating the promising applicability of CNNs for washed-away building detection.
 
-https://github.com/faiton713/ABCDdataset/blob/master/patches.png
+![hoge](https://github.com/faiton713/ABCDdataset/blob/master/patches.png)
