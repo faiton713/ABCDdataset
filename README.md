@@ -12,24 +12,12 @@ The below figure shows the representative samples in the dataset, where eight pa
 
 
 See our paper for further details.
-Please cite the following paper when publishing results that use this dataset
-
-
+Please cite the following paper when publishing results that use this dataset:
 Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka, Ryosuke Nakamura, "Damage Detection from Aerial Images
 via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.
 
 
 ----
-
-There are XXX images for each of the following classes:
-- washed-away
-- surviving
-
-Each image measures XXXxXXX pixels.
-
-The images were manually extracted from large images from the USGS National Map Urban Area Imagery collection for various urban areas around the country. The pixel resolution of this public domain imagery is 1 foot.
-
-
 
 Aito Fujita  
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
