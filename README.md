@@ -7,12 +7,12 @@ This dataset is a new labeled dataset, specially geared toward constructing and 
 ## Description
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from a hefty number of RGB aerial images taken before or after the Tohoku earthquake, with the original pixel resolution of 40 cm for pre-quake images and 12 cm for post-qukae images (actually, resampled to 40 cm).
 
-The below figure shows eight samples in the dataset, where four pairs are shown for "washed-away" class (left column) and "surviving" class (right column), respectively. The class label annotated to each pair means whether or not a building at the center of the patch is wahshed-away. 
+The below shows eight samples in the dataset, where four pairs are shown for "washed-away" class (left column) and "surviving" class (right column), respectively. The class label annotated to each pair means whether or not a building at the center of the patch is wahshed-away. 
 
 ![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
 
 
-We prepared this set for three types of scales: fixed-scale, size-adaptive and resized.  
+We prepared this set for three types of scale: fixed-scale, size-adaptive and resized. Fixed-scale patches have the same resolution of the original images (40 cm) and the patch size is 160 x 160 pixels. Size-adaptive patches 
 The resulting ABCD dataset comprised 10,777 pairs for fixed-scale (4,253 washed-away) and 11,394 pairs for size-adaptive and resized (4,546 washed-away). 
 
 
