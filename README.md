@@ -29,7 +29,7 @@ via Convolutional Neural Networks," IAPR International Conference on Machine Vis
 ABCD dataset is available on the following link: 
 > *Link to be inserted*  
 
-The directory configuration is as follows.
+The link contains two directories, each corresponding to **fixed-scale** and **resized**. In each directory, "washed-away" and "surviving" pairs are packed in the subdirectory `patch-pairs`. Also, 
 
 ```
 ./concat_2images/fixed_size/noMult
@@ -43,10 +43,10 @@ root/fixed-scale/
      |
      |-patch-pairs/
      |     |
-     |     |- image1.tif
-     |     |- image2.tif
+     |     |- patch-pair_1.tif
+     |     |- patch-pair_2.tif
      |          :
-     |     |_ image8506.tif
+     |     |_ patch-pair_8506.tif
      |
      |_5fold-list/
            |
@@ -60,10 +60,10 @@ root/resized/
      |
      |-patch-pairs/
      |     |
-     |     |- image1.tif
-     |     |- image2.tif
+     |     |- patch-pair_1.tif
+     |     |- patch-pair_2.tif
      |          :
-     |     |_ image8444.tif
+     |     |_ patch-pair_8444.tif
      |
      |_5fold-list/
            |
