@@ -64,7 +64,14 @@ root/resized/
            |_ cv5-test.csv
 
 ```
-The link contains two directories, `fixed-scale` and `resized`, each corresponding to fixed-scale and resized patch pairs as mentioned above. Each directory has two subdirectories, `patch-pairs` and `5fold-list`. In `patch-pairs`, "washed-away" and "surviving" patch pairs are stored in `.tif` format. Each `.tif` file comprises 6 channels, the first three channels for a pre-tsunami RGB patch and the last three channels for a post-tsunami patch. Also, in `5fold-list` we prepared 
+The link contains two directories, `fixed-scale` and `resized`, each corresponding to fixed-scale and resized patch pairs as mentioned above. Each directory has two subdirectories, `patch-pairs` and `5fold-list`. In `patch-pairs`, "washed-away" and "surviving" patch pairs are stored in `.tif` format. Each `.tif` file comprises 6 channels, the first three channels for a pre-tsunami RGB patch and the last three channels for a post-tsunami patch. Also, in `5fold-list`, we prepared data list files used for our 5-fold cross validation for traceability of our experiment. 
+
+```
+patch-pair_14,1
+patch-pair_600,1
+:
+patch-pair_34,0
+```
 
 ```
 ./concat_2images/fixed_size/noMult
