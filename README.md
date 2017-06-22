@@ -3,7 +3,6 @@
 This material is a description of ABCD (AIST Building Change Detection) dataset.
 This dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.
 
-## Format
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from aerial images taken before and after the Tohoku earthquake. The pixel resolution of patches is 40 cm.
 
 The below figure shows eight samples in the dataset, where four pairs are shown for "washed-away" class (left column) and "surviving" class (right column), respectively. The class label annotated to each pair means whether or not a building at the center of the patch is wahshed-away. 
