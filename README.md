@@ -12,8 +12,12 @@ The below figure shows eight samples in the dataset, where four pairs are shown 
 ![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
 
 
+We prepared this set for three types of scales: fixed-scale, size-adaptive and resized.  
+The resulting ABCD dataset comprised 10,777 pairs for fixed-scale (4,253 washed-away) and 11,394 pairs for size-adaptive and resized (4,546 washed-away). 
+
+
 Please see the following paper for further details, and cite the paper when publishing results that use this dataset:  
-**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka, Ryosuke Nakamura, "Damage Detection from Aerial Images
+**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
 via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
 
 
