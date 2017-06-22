@@ -59,7 +59,7 @@ root/resized/
            |_ cv5-test.csv
 
 ```
-The link contains two directories, `fixed-scale/` and `resized/`, each corresponding to fixed-scale and resized patch pairs as mentioned above. Each directory has two subdirectories, `patch-pairs/` and `5fold-list/`. In `patch-pairs/`, "washed-away" and "surviving" patch pairs are stored in `.tif` format. Each `.tif` file comprises 6 channels, the first three channels for a pre-tsunami RGB patch and the last three channels for a post-tsunami patch. Also, for traceability of our experiment, in `5fold-list/` we prepared data list files used for our 5-fold cross validation. For example, `cv1-train.csv` and `cv1-test.csv` are training and test set of one of 5 folds, and so on. These csv files take the following format:
+The link contains two directories, `fixed-scale/` and `resized/`, each corresponding to fixed-scale and resized patch pairs as mentioned above. Each directory has two subdirectories, `patch-pairs/` and `5fold-list/`. In `patch-pairs/`, "washed-away" and "surviving" patch pairs are stored in `.tif` format. Each `.tif` file comprises 6 channels, the first three channels for a pre-tsunami RGB patch and the last three channels for a post-tsunami patch. Also, for traceability of our experiment, in `5fold-list/` we prepared csv files that specify file names we actually used for our 5-fold cross validation. For example, `cv1-train.csv` and `cv1-test.csv` are training and test set for one of 5 folds, and so on. These csv files take the following format:
 
 ```
 patch-pair_14.tif,1
@@ -67,7 +67,7 @@ patch-pair_600.tif,1
 :
 patch-pair_34.tif,0
 ```
-where each record corresponds to each tiff file, the first field is file name and the second field represents class labels ("1" for "washed-away" and "0" for "surviving").
+where each record corresponds to each tiff file, the first field is file name and the second field represents class label of the file in the first field ("1" for "washed-away" and "0" for "surviving").
 
 
 ---
