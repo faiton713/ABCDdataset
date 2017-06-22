@@ -12,7 +12,7 @@ The below shows eight samples from the dataset, where four pairs are shown for "
 ![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
 
 
-We prepared this set for three types of scale: fixed-scale, size-adaptive and resized. Fixed-scale patches have the same resolution of the original images (40 cm) and the patch size is 160 x 160 pixels. Size-adaptive patches 
+We prepared this set for three types of scale: fixed-scale, size-adaptive and resized. Fixed-scale patches have the same resolution of the original images (40 cm) and the patch size is 160 x 160 pixels. Size-adaptive patches also have the original resoluiton, but were cropped depending on the size of each target building (three times larger than the target building); so the patch size varies from sample to sample. Lastly, resized patches are the resized version of size-adaptive patches, specifically resized to 120 x 120 pixels.  
 The resulting ABCD dataset comprised 10,777 pairs for fixed-scale (4,253 washed-away) and 11,394 pairs for size-adaptive and resized (4,546 washed-away). 
 
 
