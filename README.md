@@ -4,7 +4,7 @@ This material is a description of ABCD (AIST Building Change Detection) dataset.
 This dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.
 
 
-## Description
+## Synopsis of the dataset
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch.   
 The below shows eight samples from the dataset, where four pairs are shown for "washed-away" buildings (left column) and "surviving" building (right column), respectively. The class label assigned to each patch (i.e. "washed-away" or "surviving") represents whether or not a building at the center of the pre-tsunami patch got wahshed-away by tsunami. 
 
