@@ -5,9 +5,14 @@ This dataset is a new labeled dataset, specially geared toward constructing and 
 
 
 ## Description
-Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from a hefty number of RGB aerial images of Tohoku region of Japan. These aerial images were taken before or after the Great East Japan earthquake, with the original pixel resolution of 40 cm for pre-quake images and 12 cm for post-qukae images (actually, resampled to 40 cm).
+Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. 
+The below shows eight samples from the dataset, where four pairs are shown for "washed-away" class (left column) and "surviving" class (right column), respectively. The class label annotated to each pair represents whether or not a building at the center of the pre-tsunami patch got wahshed-away. 
 
-The below shows eight samples from the dataset, where four pairs are shown for "washed-away" class (left column) and "surviving" class (right column), respectively. The class label annotated to each pair represents whether or not a building at the center of the pre-tsunami patch got wahshed-away. As source for class labels, we employed the existing
+![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
+
+These pairs were cropped from a hefty number of RGB aerial images of Tohoku region of Japan. These aerial images were taken before or after the Great East Japan earthquake, with the original pixel resolution of 40 cm for pre-quake images and 12 cm for post-qukae images (actually, resampled to 40 cm).
+
+As source for class labels, we employed the existing
 results of a post-tsunami survey in the wake of the Great East Japan earthquake on March 11, 2011
 
 This survey result,
@@ -18,8 +23,6 @@ Japan earthquake on March 11, 2011. The survey
 assessed over 220,000 buildings in the ravaged areas.
 Each building was assigned one of the seven designated
 damage levels (ranging from no-damage to washedaway).
-
-![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
 
 
 We prepared this set for three types of scale: fixed-scale, size-adaptive and resized. Fixed-scale patches have the same resolution of the original images (40 cm) and the patch size is 160 x 160 pixels. Size-adaptive patches also have the original resoluiton, but were cropped depending on the size of each target building (three times larger than the target building); so the patch size varies from building to building. Lastly, resized patches are the resized version of size-adaptive patches, specifically resized to 120 x 120 pixels.  
