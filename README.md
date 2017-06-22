@@ -69,13 +69,6 @@ patch-pair_34.tif,0
 ```
 where each record corresponds to each tiff file, the first field is file name and the second field represents class labels ("1" for "washed-away" and "0" for "surviving").
 
-```
-./concat_2images/fixed_size/noMult
-fixed-size (8506 = 4253 + 4253)
-
-./concat_2images/bbox_size_resize/noMult
-size-adaptive (8444: 4223 for washed-away (1) and 4221 for surviving (0))
-```
 
 ---
 Please cite the paper when publishing results that use this dataset:  
