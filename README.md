@@ -29,7 +29,7 @@ via Convolutional Neural Networks," IAPR International Conference on Machine Vis
 ABCD dataset is available on the following link: 
 > *Link to be inserted*  
 
-The link contains two directories, `fixed-scale` and `resized`, each corresponding to fixed-scale and resized patch pairs as mentioned above. Each directory has two subdirectories, `patch-pairs` and `5fold-list`. In `patch-pairs`, "washed-away" and "surviving" patch pairs are stored. Also, 
+The link contains two directories, `fixed-scale` and `resized`, each corresponding to fixed-scale and resized patch pairs as mentioned above. Each directory has two subdirectories, `patch-pairs` and `5fold-list`. In `patch-pairs`, "washed-away" and "surviving" patch pairs are stored in `.tif` format. Each `.tif` file comprises 6 channels, the first three channels for a pre-tsunami RGB patch and the last three channels for a post-tsunami patch. Also, 
 
 ```
 ./concat_2images/fixed_size/noMult
