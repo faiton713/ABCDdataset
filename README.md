@@ -6,7 +6,7 @@ This dataset is a new labeled dataset, specially geared toward constructing and 
 ## Format
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch. These pairs were cropped from aerial images taken before and after the Tohoku earthquake. The pixel resolution of patches is 40 cm.
 
-The below figure shows the representative samples in the dataset, where eight pairs are shown for "washed-away" class (left column) and "surviving" class (right column).
+The below figure shows eight samples in the dataset, where four pairs are shown for "washed-away" class (left column) and "surviving" class (right column), respectively. The class label annotated to each pair means whether or not a building at the center of the patch is wahshed-away. 
 
 ![patches_](https://user-images.githubusercontent.com/13417696/27384118-b5539e1e-56c8-11e7-9c0c-7d06b899763f.png)
 
@@ -22,4 +22,4 @@ Aito Fujita
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
 Email: fujita.713@aist.go.jp  
 
-This material is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).
+This dataset is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).
