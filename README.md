@@ -15,19 +15,14 @@ These pairs were cropped from a hefty number of RGB aerial images of Tohoku regi
 We prepared the patch pairs for two types of size: **fixed-scale** and **resized**. Fixed-scale patches were cropped from aerial images with the fixed size of 160 x 160 pixels; so they have the same resolution of the original images (40 cm). In contrast, resized patches  were cropped depending on the size of each target building (specifically, three times larger than the target building), and then all resized to 120 x 120 pixels; so the spatial scale of the patches varies from building to building.
 The resulting ABCD dataset comprised 8,506 pairs for fixed-scale (4,253 washed-away) and 8,444 pairs for resized (4,223 washed-away). 
 
-As source for class labels, we employed the existing, post-quake survey result. This survey result is the outcome of an exhaustive
+As source for class labels, we employed the existing, post-quake survey result `*LINK TO BE INSERTED*`. This survey result is the outcome of an exhaustive
 field investigation which was carried out under the initiative of MLIT (Ministry of Land, Infrastructure, Transport and Tourism) in the wake of the Great East Japan earthquake on March 11, 2011. As a consequence of this survey, over 220,000 buildings in the ravaged areas were assessed, and each building was assigned a label according to the degree of damage.
-
-
-
-
 
 
 
 ## Download
 
-ABCD dataset is available on the following link: 
-> *Link to be inserted*  
+ABCD dataset is available on the following link: `*LINK TO BE INSERTED*`  
 
 Schematic of the directory configuration in the link is as follows:
 ```
