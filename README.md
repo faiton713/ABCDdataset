@@ -19,9 +19,9 @@ As source for class labels, we employed the existing, post-quake survey result. 
 field investigation which was carried out under the initiative of MLIT (Ministry of Land, Infrastructure, Transport and Tourism) in the wake of the Great East Japan earthquake on March 11, 2011. As a consequence of this survey, over 220,000 buildings in the ravaged areas were assessed, and each building was assigned a label according to the degree of damage.
 
 
-Please see the following paper for further details, and cite the paper when publishing results that use this dataset:  
-**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
-via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
+
+
+
 
 
 ## Download
@@ -83,6 +83,9 @@ size-adaptive (8444: 4223 for washed-away (1) and 4221 for surviving (0))
 ```
 
 ---
+Please cite the paper when publishing results that use this dataset:  
+**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
+via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
 
 Aito Fujita  
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
