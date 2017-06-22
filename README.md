@@ -16,7 +16,7 @@ As source for class labels, we employed the existing, post-quake survey result. 
 field investigation which was carried out under the initiative of MLIT (Ministry of Land, Infrastructure, Transport and Tourism) in the wake of the Great East Japan earthquake on March 11, 2011. As a consequence of this survey, over 220,000 buildings in the ravaged areas were assessed, and each building was assigned a label according to the degree of damage.
 
 
-We prepared this set for three types of scale: fixed-scale, size-adaptive and resized. Fixed-scale patches have the same resolution of the original images (40 cm) and the patch size is 160 x 160 pixels. Size-adaptive patches also have the original resoluiton, but were cropped depending on the size of each target building (three times larger than the target building); so the patch size varies from building to building. Lastly, resized patches are the resized version of size-adaptive patches, specifically resized to 120 x 120 pixels.  
+We prepared the patch pairs for three types of size: fixed-scale, size-adaptive and resized. Fixed-scale patches have the same resolution of the original images (40 cm) and the patch size is 160 x 160 pixels. Size-adaptive patches also have the original resolution, but were cropped depending on the size of each target building (three times larger than the target building); so the patch size varies from building to building. Lastly, resized patches are the resized version of size-adaptive patches, specifically resized to 120 x 120 pixels.  
 The resulting ABCD dataset comprised 10,777 pairs for fixed-scale (4,253 washed-away) and 11,394 pairs for size-adaptive and resized (4,546 washed-away). 
 
 
