@@ -25,7 +25,7 @@ Please see the following paper for further details, and cite the paper when publ
 via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
 
 
-
+```
 ./concat_2images/fixed_size/noMult
 fixed-size (8506 = 4253 + 4253)
 
@@ -33,17 +33,16 @@ fixed-size (8506 = 4253 + 4253)
 size-adaptive (8444: 4223 for washed-away (1) and 4221 for surviving (0))
 
 
-
-root/fixed-scale
+root/fixed-scale/
      |
-     |-patch-pairs
+     |-patch-pairs/
      |     |
      |     |- image1.tif
      |     |- image2.tif
      |          :
      |     |_ image8506.tif
      |
-     |_5fold-list
+     |_5fold-list/
            |
            |- cv1-train.csv
            |- cv1-test.csv
@@ -51,23 +50,23 @@ root/fixed-scale
            |_ cv5-test.csv
 
 
-root/resized
+root/resized/
      |
-     |-patch-pairs
+     |-patch-pairs/
      |     |
      |     |- image1.tif
      |     |- image2.tif
      |          :
      |     |_ image8444.tif
      |
-     |_5fold-list
+     |_5fold-list/
            |
            |- cv1-train.csv
            |- cv1-test.csv
                 :
            |_ cv5-test.csv
 
-
+```
 
 ---
 
