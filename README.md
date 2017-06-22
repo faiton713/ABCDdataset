@@ -26,7 +26,9 @@ via Convolutional Neural Networks," IAPR International Conference on Machine Vis
 
 ## Download
 
-ABCD dataset is available on the following link: *Link to be inserted*  
+ABCD dataset is available on the following link: 
+> *Link to be inserted*  
+
 The directory configuration is as follows.
 
 ```
