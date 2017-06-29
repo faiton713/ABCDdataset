@@ -1,7 +1,6 @@
 # ABCD dataset
 
-This is a description of ABCD (AIST Building Change Detection) dataset.
-This dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.  
+ABCD (AIST Building Change Detection) dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.  
 
 The paper:  
 **Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
