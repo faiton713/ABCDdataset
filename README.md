@@ -28,14 +28,14 @@ Schematic of the directory configuration in the link is as follows:
 ```
 root/fixed-scale/
      |
-     |-patch-pairs/
+     |- patch-pairs/
      |     |
      |     |- patch-pair_1.tif
      |     |- patch-pair_2.tif
      |          :
      |     |_ patch-pair_8506.tif
      |
-     |_5fold-list/
+     |_ 5fold-list/
            |
            |- cv1-train.csv
            |- cv1-test.csv
@@ -44,14 +44,14 @@ root/fixed-scale/
 
 root/resized/
      |
-     |-patch-pairs/
+     |- patch-pairs/
      |     |
      |     |- patch-pair_1.tif
      |     |- patch-pair_2.tif
      |          :
      |     |_ patch-pair_8444.tif
      |
-     |_5fold-list/
+     |_ 5fold-list/
            |
            |- cv1-train.csv
            |- cv1-test.csv
