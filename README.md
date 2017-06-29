@@ -25,7 +25,7 @@ field investigation which was carried out under the initiative of MLIT (Ministry
 
 
 ## Download
-Please read the [terms of use](https://github.com/faiton713/ABCDdataset/blob/master/License.md) before downloading the ABCD dataset. 
+Please read the [terms of use](https://github.com/faiton713/ABCDdataset/blob/master/License.md) before downloading the ABCD dataset.   
 The dataset can be downloaded from [here](https://data.airc.aist.go.jp/ABCDdataset/ABCDdataset.zip) (2.1GB).   
 Or type the following in the terminal:
 ```
