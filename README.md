@@ -22,7 +22,7 @@ field investigation which was carried out under the initiative of MLIT (Ministry
 
 ## Download
 
-ABCD dataset can be downloaded from [here](http://172.16.0.59/ABCDdataset.zip) (1.9GB).  
+ABCD dataset can be downloaded from [here](http://172.16.0.59/ABCDdataset.zip) (2.1GB).  
 Or type the following in the terminal:
 ```
 $ wget --user=user --http-passwd=abcd http://172.16.0.59/ABCDdataset.zip
