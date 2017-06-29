@@ -81,6 +81,8 @@ Please cite the paper when publishing results that use this dataset:
 **Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
 via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
 
+### Contact
+If you have any quetions, please contact the following:
 Aito Fujita  
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
 Email: fujita.713@aist.go.jp  
