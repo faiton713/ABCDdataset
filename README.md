@@ -26,7 +26,7 @@ ABCD dataset is available on the following link: `*LINK TO BE INSERTED*`
 
 Schematic of the directory configuration in the link is as follows:
 ```
-root/fixed-scale/
+./ABCDdataset/fixed-scale/
      |
      |- patch-pairs/
      |     |
@@ -42,7 +42,7 @@ root/fixed-scale/
                 :
            |_ cv5-test.csv
 
-root/resized/
+./ABCDdataset/resized/
      |
      |- patch-pairs/
      |     |
