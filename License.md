@@ -8,8 +8,8 @@ ABCD dataset is based on results obtained from a project commissioned by the New
 
 1. In the case of publication as a paper, magazine, or other external material, the user shall specify the following matters in the corresponding document.
 
-    1 Specify the URL of ABCD dataset.
-    1 Specify "Copyright of aerial images are PASCO corporation" as copyright of aircraft photograph data provider.
+    1. Specify the URL of ABCD dataset.
+    1. Specify "Copyright of aerial images are PASCO corporation" as copyright of aircraft photograph data provider.
 
 1. At the time of downloading, we treat the user as agreeing to these terms of service.
 
