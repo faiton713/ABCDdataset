@@ -1,8 +1,11 @@
 # ABCD dataset
 
 This material is a description of ABCD (AIST Building Change Detection) dataset.
-This dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.
+This dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.  
 
+Please cite the paper when publishing results that use this dataset:  
+**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
+via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.** ([pdf]())
 
 ## Synopsis
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch.   
@@ -77,16 +80,13 @@ where each record corresponds to each tiff file, the first field is file name an
 
 
 ---
-Please cite the paper when publishing results that use this dataset:  
-**Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
-via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.**
 
 ### Contact
-If you have any quetions, please contact the following:
+If you have any questions, please contact the following:  
 Aito Fujita  
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
 Email: fujita.713@aist.go.jp  
 
 ### Acknowledgement
-This dataset is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).
+This dataset is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).  
 We also appreciate MLIT (Ministry of Land, Infrastructure, Transport and Tourism) and CSiS (Center for Spatial Information Science, The University of Tokyo) for compiling [the archive of the Great East Japan Earthquake Survey](http://fukkou.csis.u-tokyo.ac.jp/), which we employed as source for groundtruths. 
