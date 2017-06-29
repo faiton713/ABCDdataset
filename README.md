@@ -85,7 +85,7 @@ where each record corresponds to each tiff file, the first field is file name an
 If you have any questions, please contact the following:  
 Aito Fujita  
 National Institute of Advanced Industrial Science and Technology (AIST), Japan  
-Email: fujita.713@aist.go.jp  
+Email: fujita.713[at]aist.go.jp  
 
 ### Acknowledgement
 This dataset is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).  
