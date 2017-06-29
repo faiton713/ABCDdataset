@@ -5,7 +5,7 @@ This dataset is a new labeled dataset, specially geared toward constructing and 
 
 The paper:  
 **Aito Fujita, Ken Sakurada, Tomoyuki Imaizumi, Riho Ito, Shuhei Hikosaka and Ryosuke Nakamura, "Damage Detection from Aerial Images
-via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.** ([pdf]())
+via Convolutional Neural Networks," IAPR International Conference on Machine Vision Applications (MVA), 2017.** ([`**LINK TO BE INSERTED**`]())
 
 ## Synopsis
 Each datum in this dataset is a pair of pre- and post-tsunami aerial image patches, and encompasses a target building at the center of the patch.   
