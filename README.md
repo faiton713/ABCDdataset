@@ -25,8 +25,7 @@ field investigation which was carried out under the initiative of MLIT (Ministry
 ABCD dataset can be downloaded from [here](https://data.airc.aist.go.jp/ABCDdataset.zip) (2.1GB).  
 Or type the following in the terminal:
 ```
-~~$ wget --user=user --http-passwd=abcd https://data.airc.aist.go.jp/ABCDdataset.zip~~
-$ wget https://data.airc.aist.go.jp/ABCDdataset.zip
+$ wget --user=user --http-passwd=abcd https://data.airc.aist.go.jp/ABCDdataset.zip
 $ unzip ABCDdataset.zip
 ```
 
