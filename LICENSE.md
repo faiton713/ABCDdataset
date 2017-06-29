@@ -1,5 +1,4 @@
-<p align="center"> Terms of Use </p>
-<p align="center"> About ABCD (AIST Building Change Detection) Dataset </p>
+<p align="center"> Terms of Use About the ABCD (AIST Building Change Detection) Dataset </p>
 <p align="right"> June 30, 2017 </p>
 
 The users of the ABCD dataset must abide by the following Terms of Use:
