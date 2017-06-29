@@ -22,9 +22,15 @@ field investigation which was carried out under the initiative of MLIT (Ministry
 
 ## Download
 
-ABCD dataset is available on the following link: `*LINK TO BE INSERTED*`  
+ABCD dataset is available from `http://172.16.0.59/ABCDdataset.zip`  
 
-Schematic of the directory configuration in the link is as follows:
+```
+$ wget --user=user --http-passwd=abcd http://172.16.0.59/ABCDdataset.zip
+$ unzip ABCDdataset.zip
+```
+
+
+Schematic of the directory configuration in the unzipped file is as follows:
 ```
 ./ABCDdataset/fixed-scale/
      |
