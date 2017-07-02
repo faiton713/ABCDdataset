@@ -6,9 +6,9 @@ The users of the ABCD dataset must abide by the following Terms of Use:
 1. The use of the dataset is limited only to noncommercial purpose.
 
 1. When publishing results that use this dataset, the users shall comply with the following matters:
-     * Refer to the URL of the ABCD dataset (i.e., https://github.com/faiton713/ABCDdataset/).
-     * Specify "The copyright of aerial images is retained by PASCO corporation." as copyright of the aerial image provider.
-
+     * The users must cite the URL of the ABCD dataset (i.e., https://github.com/faiton713/ABCDdataset/) in their publication.
+     * The original aerial images are copyrighted by PASCO corporation. Thus, the users must include the text "The copyright of aerial images is retained by PASCO corporation." in their publication to show attribution to the image provider.
+     
 1. The users of the dataset accept full responsibility for the use of the dataet, 
 including but not limited to the use of any copies of copyrighted images that they may create from the dataset.
 
